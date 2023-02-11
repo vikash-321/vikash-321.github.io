@@ -41,6 +41,44 @@
         #section-home div:first-child{
             padding: 20px;
         }
+
+        #section-projects {
+            margin: 20px;
+        }
+        .two-projects {
+            display: flex;
+            margin:20px ;
+        }
+
+        .two-projects > div {
+        width: 50%;
+        padding: 20px;
+        border-radius: 20px;
+        }
+
+        .two-projects>div:first-child{
+            background-color: #ecebfd;
+            margin-right: 10px;
+        }
+        .two-projects>div:last-child{
+            background-color: #1459cb;
+            margin-left: 10px;
+        }
+        .two-projects img{
+            height: 300px;
+        }
+
+     .third-project {
+        padding: 20px;
+        margin: 20px 0;
+        background-image:linear-gradient(to bottom right,rgb(255, 0, 191),rgb(14, 116, 233));
+        color: black;
+        border-radius: 20px;
+     }
+
+     .third-project img {
+        height: 400px; 
+        }
     </style>
 </head>
 <body>
@@ -80,7 +118,7 @@
     </section>
 
     <section id="section-project">
-        <div>
+        <div class="two-projects">
             <div>
                 <!--first two projects-->
                 <h1>Paymento</h1>
@@ -97,13 +135,12 @@
             </div>
         </div>
 
- 
-        <div>
+            <div class="third-project">
             <div>
                 <!third party projects-->
                 <h1>piyuu</h1>
-                <p>Freelanching plateform for individuals</p>
-
+                <p>Freelanching platform for individuals</p>
+                <img src="images/piyuu.png" alt="">
             </div>
         </div>
        
