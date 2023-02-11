@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Website Development</title>
     <style>
-        nav{
+        nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 20px;
 
-        } 
-        div.links a {
-            padding: 5px;
-            text-decoration:none;
-            color: black;
-            font-weight:bold;
         }
 
-        #section-home{
+        div.links a {
+            padding: 5px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        #section-home {
             display: flex;
             justify-content: space-between;
             background-color: aqua;
-            color:azure;
+            color: azure;
             margin: 20px;
             border-radius: 15px;
             height: 300px;
@@ -38,56 +40,69 @@
 
         }
 
-        #section-home div:first-child{
+        #section-home div:first-child {
             padding: 20px;
         }
 
         #section-projects {
             margin: 20px;
         }
+
         .two-projects {
             display: flex;
-            margin:20px ;
+            margin: 20px;
         }
 
-        .two-projects > div {
-        width: 50%;
-        padding: 20px;
-        border-radius: 20px;
+        .two-projects>div {
+            width: 50%;
+            padding: 20px;
+            border-radius: 20px;
         }
 
-        .two-projects>div:first-child{
+        .two-projects>div:first-child {
             background-color: #ecebfd;
             margin-right: 10px;
         }
-        .two-projects>div:last-child{
+
+        .two-projects>div:last-child {
             background-color: #1459cb;
             margin-left: 10px;
         }
-        .two-projects img{
+
+        .two-projects img {
             height: 300px;
         }
 
-     .third-project {
-        padding: 20px;
-        margin: 20px 0;
-        background-image:linear-gradient(to bottom right,rgb(255, 0, 191),rgb(14, 116, 233));
-        color: black;
-        border-radius: 20px;
-     }
+        .third-project {
+            padding: 20px;
+            margin: 20px 0;
+            background-image: linear-gradient(to bottom right, rgb(255, 0, 191), rgb(14, 116, 233));
+            color: black;
+            border-radius: 20px;
+        }
 
-     .third-project img {
-        height: 400px; 
+        .third-project img {
+            height: 400px;
+        }
+
+        #section-contact {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 15px;
+            background-image: linear-gradient(to top right, red, pink);
         }
     </style>
 </head>
+
 <body>
     <nav>
         <div>
-        <!--container for logo-->
-         <a href="/">
-            <img src="images/logo.png" alt="">
-         </a>
+            <!--container for logo-->
+            <a href="/">
+                <img src="images/logo.png" alt="">
+            </a>
         </div>
         <div class="links">
             <!--container for navigation links-->
@@ -106,9 +121,11 @@
         <div>
             <!--description about me-->
             <h1> I am Vikash kumar, learning in software development</h1>
-            <p>When you apply for a software engineer job, it is common for the interviewer to say “Tell me about yourself” at the beginning of an interview. Hiring managers often ask this question to encourage you to introduce yourself and share a short summary of your career.
+            <p>When you apply for a software engineer job, it is common for the interviewer to say “Tell me about
+                yourself” at the beginning of an interview. Hiring managers often ask this question to encourage you to
+                introduce yourself and share a short summary of your career.
 
-                </p>
+            </p>
         </div>
 
         <div>
@@ -124,26 +141,53 @@
                 <h1>Paymento</h1>
                 <p>Personal Finance Mobile app</p>
                 <img src="images/paymento.png" alt="">
-            
+
             </div>
             <div>
                 <!--first two projects-->
                 <h1>Taskit</h1>
                 <p>Task Management App</p>
                 <img src="images/taskit.png" alt="">
-            
+
             </div>
         </div>
 
-            <div class="third-project">
+        <div class="third-project">
             <div>
                 <!third party projects-->
-                <h1>piyuu</h1>
-                <p>Freelanching platform for individuals</p>
-                <img src="images/piyuu.png" alt="">
+                    <h1>piyuu</h1>
+                    <p>Freelanching platform for individuals</p>
+                    <img src="images/piyuu.png" alt="">
             </div>
         </div>
-       
+
     </section>
+
+    <section id="section-contact">
+        <div>
+            <!--How to connect-->
+            <h1>want to Work Together?</h1>
+            <p1>Feel Free To reach out for collaboration or a friendly hello</p1>
+            <a href="mailto:rajv56826@gmail.com">rajv56826@gmail.com</a>
+        </div>
+        <div>
+            <!--connection links-->
+            <h2>connect with me</h2>
+            <div>
+                <a href="">
+                    <img src="images/linkedin.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/twitter.png" alt="">
+                </a>
+            </div>
+
+    </section>
+
+
+    </div>
+
+
 </body>
+
 </html>
